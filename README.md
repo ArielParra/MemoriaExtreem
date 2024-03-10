@@ -2,9 +2,10 @@
 
 Es un juego de memorama con opcion de cargar nuevas palabras, mostrar resultados en un archivo y compatible con Windows, MacOS, Linux, FreeBSD, OpenBSD y posiblemente cualquier sistema operativo basado en UNIX 
 
+![MemoriaExtreem-Demo](./MemoriaExtreem-Demo.png)
 # Compilacion
 
-En Windows es necesario el compilador gcc, el cual puede obtenerse a travez de MSYS2. Para compilar en sistemas basados en Unix como MacOS o Linux, se requiere de las librerias de ncurses y ncurses-dev, se puede compilar ejecutando el comando "make"
+En Windows es necesario el compilador gcc, el cual puede obtenerse a travez de MSYS2. Para compilar en sistemas basados en Unix como MacOS o Linux, se requiere de las librerias de ncurses y ncurses-dev, se puede compilar ejecutando el comando "make" (para Windows ejecutar el programa local .\make.exe)
 
 ---
 
