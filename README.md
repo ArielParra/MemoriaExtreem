@@ -1,33 +1,47 @@
-# Descripcion
+# MemoriaExtreem
 
-Es un juego de memorama con opcion de cargar nuevas palabras, mostrar resultados en un archivo y compatible con Windows, MacOS, Linux, FreeBSD, OpenBSD y posiblemente cualquier sistema operativo basado en UNIX 
+**MemoriaExtreem** is a memory game that allows you to load new words, display results in a file, and is compatible with multiple operating systems, including Windows, macOS, Linux, FreeBSD, OpenBSD, and other UNIX-based systems.
 
-![MemoriaExtreem-Demo](./MemoriaExtreem-Demo.png)
-# Compilacion
+![MemoriaExtreem-Demo](./demo.gif)
 
-En Windows es necesario el compilador gcc, el cual puede obtenerse a travez de MSYS2. Para compilar en sistemas basados en Unix como MacOS o Linux, se requiere de las librerias de ncurses y ncurses-dev, se puede compilar ejecutando el comando "make" (para Windows ejecutar el programa local .\make.exe)
+> [!IMPORTANT]  
+> This project is made completely in spanish, the Code, Menus and on-screen instructions, will be displayed only in **Spanish**.
 
 ---
 
-## Requerimientos del proyecto:
-- [x] 1. Uso de lenguaje C/C++ 
-- [x] 2. Uso del tipo de dato string
-- [x] 3. Uso de color, sonido, gotoxy
-    - [x] 1. color
-    - [x] 2. sonido
-    - [x] 3. gotoxy
-- [x] 4. Uso de funciones en sus 4 combinaciones, que les ayuden a estructurar el sistema. El proyecto debe incluir obligatoriamente todos los casos de funciones
-    - [x] 1. No retorna, No recibe
-    - [x] 2. No retorna, Si recibe
-    - [x] 3. Si retorna, No recibe
-    - [x] 4. Si retorna, Si recibe
-- [x] 5. Se espera una buena presentación del tablero y elementos en pantalla. Uso de colores y de Beeps.
-- [x] 6. Manejo de archivos de texto 
-- [x] 7. Manejo de archivos binarios
-- [x] 8. Manejo de struct
-- [x] 9. Manejo de menú
-- [x] 10. Manejo de matrices y vectores dinámicos.
-- [x] 11. Manejo de librerías .h (Al menos dos liberias .h)
-- [x] 12. Manejo de validaciones
+## Features
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- **Cross-platform compatibility**: Works on Windows, macOS, Linux, and UNIX-based systems.
+- **Customization**: Allows you to load new words to personalize the game.
+- **Exportable results**: Saves results to a file for later analysis.
+- **Sound effects**: Includes sound effects to enhance the user experience.
+
+---
+
+## Build Requirements
+
+### Windows
+
+1. Install the `gcc` compiler, available through [MSYS2](https://www.msys2.org/).
+2. To compile with the included icon, run the `Compilar_Con_ICONO.bat` script by double-clicking on it.
+
+### Linux/macOS
+
+1. Install the required libraries:
+   - **Debian/Ubuntu**: `sudo apt install libncurses5 libncurses5-dev`
+   - **Fedora**: `sudo dnf install ncurses ncurses-devel`
+   - **Arch Linux**: `sudo pacman -S ncurses`
+2. Compile the project by running the following command in the terminal:
+
+   ```bash
+   make
+   ```
+
+## Sound Effects
+
+The game includes several sound effects to enhance the user experience. These are the resources used:
+
+- **`pop.wav`**: Retrieved from [SoundBible](https://soundbible.com/2067-Blop.html).
+- **`error.wav` y `exito.wav`**: Generated with [sfxr.me](https://sfxr.me/).
+- **`song.wav`**: Retrieved from "BossMain.wav" on [OpenGameArt](https://opengameart.org/content/nes-shooter-music-5-tracks-3-jingles).
+- **`win.wav`**: Retrieved from "Victory.wav" on [OpenGameArt](https://opengameart.org/content/victory).

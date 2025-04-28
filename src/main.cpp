@@ -281,9 +281,8 @@ void primer_pantalla() {
   gotoxy(x, y++);
   cout << AZUL << "UAA, Carrera: ISC,";  gotoxy(x, y++);
   cout << ROJO << "Materia: Programacion 1,";  gotoxy(x, y++);
-  cout << VERDE << "Nombre del sistema: Memoria Extreeem,";  gotoxy(x, y++);
-  cout << MAGENTA << "Nombre del Profesor: ";gotoxy(x, y++);
-  /*Nombres de estudiantes y profesores ocultos para proteger la privacidad*/
+  cout << VERDE << "Nombre del Programa: Memoria Extreeem,";  gotoxy(x, y++);
+  cout << MAGENTA << "Alumnos: Ariel Parra Y Miguel Batres ";gotoxy(x, y++);
   cout << CYAN << "Fecha: "<< Fecha_actual_letras() << CLR_RST;
   fflush(stdout);
 }

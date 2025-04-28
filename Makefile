@@ -12,7 +12,7 @@ endif
 CFLAGS = -std=c++17 -O2 -s
 Nombre = MemoriaExtreem
 
-$(Nombre): main.cpp menus.h JuegoHead.h FuncionesGen.h
+$(Nombre): src/main.cpp src/menus.h src/JuegoHead.h src/FuncionesGen.h
 	$(CPP) -o $(call FixPath,$(Nombre)) $< $(FLAGS) $(CFLAGS)
 
 clean:
